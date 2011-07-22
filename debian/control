@@ -1,0 +1,32 @@
+Source: tuquito-meta
+Section: admin
+Priority: optional
+Maintainer: Mario Colque <mario@tuquito.org.ar>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: tuquito-meta-codecs
+Architecture: any
+Depends: gstreamer0.10-esd, gstreamer0.10-ffmpeg, gstreamer0.10-pitfdll [i386], gstreamer0.10-plugins-bad, gstreamer0.10-plugins-bad-multiverse, gstreamer0.10-plugins-ugly, gstreamer0.10-plugins-ugly-multiverse, libdvdcss2, libdvdnav4, libdvdread4, cabextract, gecko-mediaplayer, totem-xine, unrar, unshield, w32codecs [i386], w64codecs [amd64]
+Description: All the packages required for multimedia support in Tuquito.
+ All the packages required for multimedia support in Tuquito.
+
+Package: tuquito-meta-gnome-dvd
+Architecture: all
+Depends: tuquito-meta-gnome, gnome-wise-icon-theme, giver, gimp, libreoffice-help-es, libX11-dev, nautilus-share, openoffice.org-base, sun-java6-plugin, samba, samba-common-bin, shiki-brave-theme, smbclient, tomboy, ttf-dejavu, ttf-dejavu-extra, ttf-wqy-microhei, vlc
+Description: Set of packages included in the DVD edition of Tuquito
+ Set of packages included in the DVD edition of Tuquito.
+
+Package: tuquito-meta-gnome
+Architecture: all
+Conflicts: tuquito-meta-main, tuquito-meta-x64
+Replaces: tuquito-meta-main, tuquito-meta-x64
+Depends: tuquito-meta-core, aptoncd, compiz-check, compizconfig-settings-manager, gdebi, grub2-theme-tuquito, gufw, hardinfo, tuquito-artwork-gnome, tuquito-update, tuquito-bienvenida, tuquito-wifi, nautilus-actions, nautilus-gksu, nautilus-open-terminal, nautilus-wallpaper, ndisgtk, ndiswrapper-common, ndiswrapper-utils-1.9, p7zip, pppoe, pulseaudio-module-zeroconf, software-properties-gtk, startupmanager, pidgin, pidgin-facebookchat, thunderbird, ttf-ubuntu-font-family, ttf-droid, ttf-liberation, usb-creator-gtk, xchat, xchat-common, xdg-user-dirs, xdg-user-dirs-gtk, plymouth-theme-ubuntu-text, plymouth-theme-ubuntu-logo
+Description: Set of packages common to all Gnome-based editions of Tuquito
+ Set of packages common to all Gnome-based editions of Tuquito.
+
+Package: tuquito-meta-core
+Architecture: all
+Depends: tuquito-keyring, tuquito-info-gnome | tuquito-info, tuquito-system, ubuntu-system-adjustments, add-apt-key, cups-pdf
+Description: Core Tuquito packages
+ Core Tuquito packages
