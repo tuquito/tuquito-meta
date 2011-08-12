@@ -13,7 +13,7 @@ Description: All the packages required for multimedia support in Tuquito.
 
 Package: tuquito-meta-gnome-dvd
 Architecture: all
-Depends: tuquito-meta-gnome, gnome-brave-icon-theme, giver, gimp, libreoffice-help-es, libX11-dev, nautilus-share, openoffice.org-base, sun-java6-plugin, samba, samba-common-bin, smbclient, shiki-brave-theme, ttf-dejavu, ttf-dejavu-extra, ttf-wqy-microhei, vlc, cheese, chromium-browser, chromium-browser-inspector, chromium-browser-l10n, chromium-codecs-ffmpeg-extra, chromium-codecs-ffmpeg-nonfree, emesene, gnome-do, gnome-do-plugins, gnome-phone-manager, gufw, gwibber, gtk-recordmydesktop, gucharmap, language-support-writing-es, language-pack-gnome-es, language-support-writing-pt, language-pack-gnome-es, myspell-es, myspell-pt, nautilus-share, mozilla-plugin-vlc, pitivi, gthumb, sun-java6-plugin, transmission-gtk, tucan, ttf-mscorefonts-installer, unace, vino, vinagre, wspanish, wportuguese
+Depends: tuquito-meta-gnome, gnome-brave-icon-theme, giver, gimp, libreoffice-help-es, libX11-dev, nautilus-share, openoffice.org-base, sun-java6-plugin, samba, samba-common-bin, smbclient, shiki-brave-theme, ttf-dejavu, ttf-dejavu-extra, ttf-wqy-microhei, vlc, cheese, emesene, gnome-do, gnome-do-plugins, gnome-phone-manager, gufw, gwibber, gtk-recordmydesktop, gucharmap, language-support-writing-es, language-pack-gnome-es, language-support-writing-pt, language-pack-gnome-es, myspell-es, myspell-pt, nautilus-share, mozilla-plugin-vlc, pitivi, gthumb, sun-java6-plugin, transmission-gtk, tucan, ttf-mscorefonts-installer, unace, vino, vinagre, wspanish, wportuguese
 Description: Set of packages included in the DVD edition of Tuquito
  Set of packages included in the DVD edition of Tuquito.
 
@@ -28,12 +28,12 @@ Description: Set of packages common to all Gnome-based editions of Tuquito
 
 Package: tuquito-meta-gnome-base
 Architecture: all
-Depends: tuquito-meta-core, aptito, guake, synaptic, tuquito-software-manager, trss, tuquito-bienvenida, tuquito-control-center, tuquito-update, tuquito-upgrade-manager, tuquito-wallpapers, tuquito-wia, tuquito-wifi, compiz-check, compizconfig-settings-manager, gdebi, grub2-theme-tuquito, hardinfo, tuquito-artwork-gnome, nautilus-gksu, nautilus-wallpaper, ndisgtk, ndiswrapper-common, ndiswrapper-utils-1.9, pppoe, pulseaudio-module-zeroconf, software-properties-gtk, startupmanager, ttf-ubuntu-font-family, ttf-droid, ttf-liberation, usb-creator-gtk, xchat, xchat-common, xdg-user-dirs, xdg-user-dirs-gtk, plymouth-theme-ubuntu-text, plymouth-theme-ubuntu-logo
+Depends: tuquito-meta-core, aptito, guake, synaptic, tuquito-software-manager, trss, tuquito-bienvenida, tuquito-control-center, tuquito-update, tuquito-wallpapers, tuquito-wia, tuquito-wifi, compiz-check, compizconfig-settings-manager, gdebi, grub2-theme-tuquito, hardinfo, tuquito-artwork-gnome, nautilus-gksu, nautilus-wallpaper, ndisgtk, ndiswrapper-common, ndiswrapper-utils-1.9, pppoe, pulseaudio-module-zeroconf, software-properties-gtk, startupmanager, ttf-ubuntu-font-family, ttf-droid, ttf-liberation, usb-creator-gtk, xchat, xchat-common, xdg-user-dirs, xdg-user-dirs-gtk, plymouth-theme-tuquito
 Description: Set of packages common to all Gnome-based editions of Tuquito Base
  Set of packages common to all Gnome-based editions of Tuquito Base.
 
 Package: tuquito-meta-core
 Architecture: all
-Depends: tuquito-keyring, tuquito-info-gnome | tuquito-info, tuquito-system, ubuntu-system-adjustments, add-apt-key, cups-pdf
+Depends: tuquito-info-gnome | tuquito-info, tuquito-system, ubuntu-system-adjustments, add-apt-key, cups-pdf
 Description: Core Tuquito packages
  Core Tuquito packages
