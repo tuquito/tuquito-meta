@@ -21,7 +21,7 @@ Package: tuquito-meta-gnome
 Architecture: all
 Conflicts: tuquito-meta-main, tuquito-meta-x64
 Replaces: tuquito-meta-main, tuquito-meta-x64
-Depends: tuquito-meta-gnome-base, tuquito-control-parental, tuquito-wia, tuquito-wifi, gnome-screensaver, nautilus-actions, nautilus-open-terminal, p7zip, pidgin, pidgin-facebookchat, language-support-writing-es, language-pack-gnome-es, xchat, xchat-common
+Depends: tuquito-meta-gnome-base, tuquito-control-parental, tuquito-wia, tuquito-wifi, gnome-screensaver, gnome-screenshot, nautilus-actions, nautilus-open-terminal, p7zip, pidgin, pidgin-facebookchat, language-support-writing-es, language-pack-gnome-es, xchat, xchat-common
 Description: Set of packages common to all Gnome-based editions of Tuquito
  Set of packages common to all Gnome-based editions of Tuquito.
 

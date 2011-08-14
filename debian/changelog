@@ -1,3 +1,15 @@
+tuquito-meta (1.9) natty; urgency=low
+
+  * new depends
+
+ -- Mario Colque <mario@tuquito.org.ar>  Sun, 14 Aug 2011 01:49:26 -0300
+
+tuquito-meta (1.8) natty; urgency=low
+
+  * tuquito-software-properties added
+
+ -- Mario Colque <mario@tuquito.org.ar>  Sat, 13 Aug 2011 21:44:39 -0300
+
 tuquito-meta (1.7) natty; urgency=low
 
   * new depends
