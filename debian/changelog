@@ -1,3 +1,9 @@
+tuquito-meta (1.14) natty; urgency=low
+
+  * jockey-gtk added
+
+ -- Mario Colque <mario@tuquito.org.ar>  Tue, 16 Aug 2011 03:46:38 -0300
+
 tuquito-meta (1.13) natty; urgency=low
 
   * synapse added
