@@ -1,3 +1,10 @@
+tuquito-meta (1.13) natty; urgency=low
+
+  * synapse added
+  * gnome-do removed
+
+ -- Mario Colque <mario@tuquito.org.ar>  Tue, 16 Aug 2011 03:23:48 -0300
+
 tuquito-meta (1.12) natty; urgency=low
 
   * new depends in DVD edition
