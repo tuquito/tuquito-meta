@@ -1,3 +1,9 @@
+tuquito-meta (1.17) natty; urgency=low
+
+  * system-config-printer-gnome added
+
+ -- Mario Colque <mario@tuquito.org.ar>  Fri, 19 Aug 2011 16:33:27 -0300
+
 tuquito-meta (1.16) natty; urgency=low
 
   * gnome-system-tools added
