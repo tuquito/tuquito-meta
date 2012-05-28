@@ -48,8 +48,9 @@ install: build
 
 	mkdir -p $(CURDIR)/debian/tuquito-meta-core
 	mkdir -p $(CURDIR)/debian/tuquito-meta-codecs
-	mkdir -p $(CURDIR)/debian/tuquito-meta-gnome
-	mkdir -p $(CURDIR)/debian/tuquito-meta-gnome-dvd
+	mkdir -p $(CURDIR)/debian/tuquito-meta-cinnamon
+	mkdir -p $(CURDIR)/debian/tuquito-meta-cinnamon-dvd
+	mkdir -p $(CURDIR)/debian/tuquito-meta-mate
 
 # Build architecture-independent files here.
 binary-indep: build install
