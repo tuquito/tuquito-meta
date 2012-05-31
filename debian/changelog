@@ -1,3 +1,9 @@
+tuquito-meta (1.19) precise; urgency=low
+
+  * tuquito-artwaork-gnome removed
+
+ -- Mario Colque <mario@tuquito.org.ar>  Thu, 31 May 2012 11:19:57 -0300
+
 tuquito-meta (1.18) precise; urgency=low
 
   * Gurani branch
