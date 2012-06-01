@@ -1,3 +1,9 @@
+tuquito-meta (1.21) precise; urgency=low
+
+  * Unable packages fixed
+
+ -- Mario Colque <mario@tuquito.org.ar>  Fri, 01 Jun 2012 09:25:30 -0300
+
 tuquito-meta (1.20) precise; urgency=low
 
   * Unable packages fixed
